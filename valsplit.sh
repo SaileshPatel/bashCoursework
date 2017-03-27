@@ -7,3 +7,7 @@
 if [ $# -ne 3 ]; then
 	echo "These files will not be considered."
 fi
+
+mipsFile=$1
+correctFile=$2
+incorrectFile=$3
