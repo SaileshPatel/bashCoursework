@@ -11,3 +11,11 @@ fi
 mipsFile=$1
 correctFile=$2
 incorrectFile=$3
+
+mnemonicTest( ){
+	mnu[0]='add'
+	mnu[1]='sub'
+	mnu[2]='addi'
+	mnu[3]='lw'
+	mnu[4]='sw'
+}
